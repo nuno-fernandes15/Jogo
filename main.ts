@@ -19,6 +19,7 @@ input.onButtonPressed(Button.A, function () {
         basic.showIcon(IconNames.SmallSquare)
         basic.showIcon(IconNames.SmallSquare)
         basic.showString("You loose!")
+        soundExpression.sad.playUntilDone()
     }
     game.resume()
 })
@@ -43,6 +44,7 @@ input.onButtonPressed(Button.AB, function () {
         basic.showIcon(IconNames.Scissors)
         basic.showIcon(IconNames.Scissors)
         basic.showString("You lose!")
+        soundExpression.sad.playUntilDone()
     }
     game.resume()
 })
@@ -67,6 +69,7 @@ input.onButtonPressed(Button.B, function () {
         basic.showIcon(IconNames.Chessboard)
         basic.showIcon(IconNames.Chessboard)
         basic.showString("You lose!")
+        soundExpression.sad.playUntilDone()
     }
     game.resume()
 })
@@ -74,6 +77,7 @@ let Papel = 0
 let Pedra = 0
 let Tesoura = 0
 let Microbit = 0
+music.startMelody(music.builtInMelody(Melodies.Entertainer), MelodyOptions.OnceInBackground)
 basic.showString("Starting Game")
 Microbit = 1
 Tesoura = 2
