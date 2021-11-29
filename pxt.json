@@ -1,5 +1,5 @@
 {
-    "name": "Jogo",
+    "name": "Jogo Pdra/Papel/Tesoura_V2",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -16,7 +16,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.11",
+        "target": "4.0.16",
         "targetId": "microbit"
     },
     "supportedTargets": [
