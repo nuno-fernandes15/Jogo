@@ -1,5 +1,5 @@
 {
-    "name": "Jogo Pedra/Papel/Tesoura_V2",
+    "name": "Jogo_V2",
     "description": "",
     "dependencies": {
         "core": "*",
