@@ -71,6 +71,7 @@ input.onButtonPressed(Button.B, function () {
         basic.showString("You lose!")
         soundExpression.sad.playUntilDone()
     }
+    basic.clearScreen()
     game.resume()
 })
 let Papel = 0
