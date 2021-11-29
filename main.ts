@@ -25,9 +25,6 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showString("You")
-    Papel = 4
-    basic.showIcon(IconNames.Chessboard)
-    basic.showIcon(IconNames.Chessboard)
     basic.showString("Micro")
     Microbit = randint(2, 4)
     if (Microbit == 4) {
@@ -47,6 +44,9 @@ input.onButtonPressed(Button.AB, function () {
         soundExpression.sad.playUntilDone()
     }
     game.resume()
+    Papel = 4
+    basic.showIcon(IconNames.Chessboard)
+    basic.showIcon(IconNames.Chessboard)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showString("You")
